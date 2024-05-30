@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+border-bottom: 2px solid #ffc72c;
+}
+h2{
+    color: #ffc72c;
+}
+
+#footer{
+    margin-top: 150px;
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: goldenrod;
+    text-align: center;
+}
+.card a{
+    text-decoration: none;
+}
+.card h5{
+    margin-top: -22px;
+}
+#game-image{
+    width: 95%;
+    height: 80%;
+    object-fit:cover;
+    margin: 3%;
+}
+.games-section h2, .countdown-section h2 {
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#chat-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    z-index: -1;
+}
+
+#chat-container.hidden {
+    transform: translateY(100%);
+}
+
+#message-input {
+    width: calc(100% - 80px);
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    #message-input {
+        width: calc(100% - 60px);
+    }
+}
+
+.btn-games{
+    margin: 20px 20px 20px 0px;
+}
+
+
+/* CopyableText.js*/
+
+.copyable-text{
+    font-family: "Menlo", "Monaco", "Consolas", "Courier New",
+    "Courier", monospace;
+    margin: 10px;
+     
+
+}
+.input-group{
+    width: 70%;
+}
+
+
+/*Offer card.js   */
+.offer-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .offer-image-container {
+    position: relative;
+  }
+  
+  .copyable-text-bottom {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 3px 5px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: transparent;
+  }
+  .copyable-text-bottom .input-group{
+    width: 100%;
+  }
+  .offer-description {
+    margin-top: 10px;
+  }
+  
+  .offer-image{
+    margin-left: 5px;
+  }
+
+  .offers{
+    margin: 10px;
+    
+  }
+  .input-group .btn{
+    background-color: #ffc72c;
+  }
