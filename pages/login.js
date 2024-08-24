@@ -25,7 +25,7 @@ const Login = () => {
     if (data.exists) {
       setShowPasswordInput(true);
     } else {
-      setErrorMessage('Sorry, the account doesnot exist. Please check the username.');
+      setErrorMessage('Sorry, the account doesn&apos;t exist. Please check the username.');
     }
   };
 
@@ -90,7 +90,7 @@ const Login = () => {
               <button type="submit" className="btn btn-primary mb-3">Log In</button>
             )}
             <p>
-              Don't have an account? <Link href="/signup">Sign Up</Link>
+              Don&apos;t have an account? <Link href="/signup">Sign Up</Link>
             </p>
           </form>
         </div>
