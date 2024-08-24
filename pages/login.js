@@ -25,7 +25,7 @@ const Login = () => {
     if (data.exists) {
       setShowPasswordInput(true);
     } else {
-      setErrorMessage('Sorry, the account doesn\'t exist. Please check the username.');
+      setErrorMessage('Sorry, the account doesnot exist. Please check the username.');
     }
   };
 
