@@ -1,7 +1,7 @@
 // pages/api/add-deposit.js
 import { query } from '../../lib/db';
 
-export default async (req, res) => {
+const addDepositHandler = async (req, res) => {
   if (req.method === 'POST') {
     const { userId, amount } = req.body;
     try {
@@ -17,3 +17,5 @@ export default async (req, res) => {
     res.status(405).json({ message: 'Method Not Allowed' });
   }
 };
+
+export default addDepositHandler;
