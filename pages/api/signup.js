@@ -1,7 +1,7 @@
 // pages/api/signup.js
 import { query } from '../../lib/db';
 
-export default async (req, res) => {
+const signupHandler = async (req, res) => {
   if (req.method === 'POST') {
     const { username, email, password } = req.body;
     try {
@@ -17,3 +17,5 @@ export default async (req, res) => {
     res.status(405).json({ message: 'Method Not Allowed' });
   }
 };
+
+export default signupHandler;
