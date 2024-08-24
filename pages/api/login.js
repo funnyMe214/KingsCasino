@@ -1,7 +1,7 @@
 // pages/api/login.js
 import { query } from '../../lib/db';
 
-export default async (req, res) => {
+const loginHandler = async (req, res) => {
   if (req.method === 'POST') {
     const { username, password } = req.body;
     const result = await query(
@@ -17,3 +17,5 @@ export default async (req, res) => {
     res.status(405).json({ message: 'Method Not Allowed' });
   }
 };
+
+export default loginHandler;
