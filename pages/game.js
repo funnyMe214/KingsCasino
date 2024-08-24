@@ -155,7 +155,10 @@ const GamePage = () => {
         <h2 className="text-center">{game.title}</h2>
         <div className="row">
           <div className="col-md-6">
-            <img id="game-image" src={game.image} alt={game.title} className="img-fluid" />
+            //<img id="game-image" src={game.image} alt={game.title} className="img-fluid" />
+        <Image id="game-image" src={game.image} alt={game.title} layout="responsive" width={600} height={300} />
+
+
           </div>
           <div className="col-md-6">
           <p id="game-description">{game.description}</p>
@@ -173,11 +176,11 @@ const GamePage = () => {
         <div className="row mt-5">
           <div className="col-md-6">
             <h3 className="text-center">Offers</h3>
-            <img id="offers-image" src={game.offersImage} alt="Offers" className="img-fluid" />
+            <Image id="offers-image" src={game.offersImage} alt="Offers" className="img-fluid" />
           </div>
           <div className="col-md-6">
             <h3 className="text-center">Cashout Rules</h3>
-            <img id="cashout-rules-image" src={game.cashoutRulesImage} alt="Cashout Rules" className="img-fluid" />
+            <Image id="cashout-rules-image" src={game.cashoutRulesImage} alt="Cashout Rules" className="img-fluid" />
           </div>
         </div>
       </section>
