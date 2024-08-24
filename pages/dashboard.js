@@ -1,10 +1,10 @@
 import { useSession } from 'next-auth/react';
 import Layout from '../components/Layout';
-
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Modal from 'react-modal';
 import ClipLoader from 'react-spinners/ClipLoader';
+import Image from 'next/image'; // Import Image component
 import '../styles/dashboard.css';
 
 // Define SVG options for profile pictures
@@ -76,7 +76,7 @@ export default function Dashboard() {
       <div className="dashboard">
         <h1>Dashboard</h1>
         <div className="profile">
-          <img src={profilePic} alt="Profile Pic" width={100} height={100} />
+          <Image src={profilePic} alt="Profile Pic" width={100} height={100} />
           <button className="change-pic-btn" onClick={() => setIsModalOpen(true)}>
             Change Profile Pic
           </button>
@@ -84,7 +84,7 @@ export default function Dashboard() {
             <h2>Select a Profile Picture</h2>
             <div className="profile-pic-selection">
               <button onClick={handlePrevPic}>Previous</button>
-              <img
+              <Image
                 src={svgOptions[selectedPicIndex]}
                 alt="Profile Pic Option"
                 width={50}
