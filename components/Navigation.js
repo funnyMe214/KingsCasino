@@ -6,7 +6,7 @@ const Navigation = ({ isLoggedIn, handleLogout }) => {
     <header>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
         <Link href="/" className="navbar-brand">
-          <h2>King's Casino</h2>
+          <h2>Kings Casino</h2>
         </Link>
         <button
           className="navbar-toggler"
