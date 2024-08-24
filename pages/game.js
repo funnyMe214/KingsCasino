@@ -2,6 +2,7 @@
 import { useRouter } from 'next/router';
 import Layout from '../components/Layout';
 import CopyableText from '../components/CopyableText';
+import Image from 'next/image'; // Import Image component
 
 import { useEffect, useState } from 'react';
 
@@ -155,7 +156,6 @@ const GamePage = () => {
         <h2 className="text-center">{game.title}</h2>
         <div className="row">
           <div className="col-md-6">
-            //<img id="game-image" src={game.image} alt={game.title} className="img-fluid" />
         <Image id="game-image" src={game.image} alt={game.title} layout="responsive" width={600} height={300} />
 
 
