@@ -76,7 +76,7 @@ const GamePage = () => {
         id: "p09x11",
         title: "Cash Machine",
         description: "Create player account, Recharge , Reedem. Do Everything click on the link below ",
-        image: "https://img.resized.co/beat102103/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltZy5iZWF0MTAyMTAzLmNvbVxcXC9wcm9kXFxcL3VwbG9hZHNcXFwvQ2FzaC1NYWNoaW5lLUFydGljbGUtSGVhZGVyLUZiLVR3aXR0ZXItMTAyNHg1MzguanBnXCIsXCJ3aWR0aFwiOjEyMDAsXCJoZWlnaHRcIjo2MjcsXCJkZWZhdWx0XCI6XCJodHRwczpcXFwvXFxcL2V1LWNlbnRyYWwtMS5saW5vZGVvYmplY3RzLmNvbVxcXC9wcGx1cy5pbWcuYmVhdDEwMjEwMy5jb21cXFwvcHJvZFxcXC91cGxvYWRzXFxcL0JlYXQtTm8tSW1hZ2UucG5nXCIsXCJvcHRpb25zXCI6W119IiwiaGFzaCI6IjZkNTRmZjU0MGRkODIwY2RhZDhmNjdkNTkwZjVhZGQzNzFiYjhhMzgifQ==/win-big-money-on-the-beat-cash-machine.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1A7KGDhhQzT47LKcXZUWvoQZUTam9-OXf5Q&s",
         downloadLink: "http://agentserver.cashmachine777.com:8003/admin",
         offersImage: "images/cashtag.jpg",
         cashoutRulesImage: "images/cashout.jpg",
