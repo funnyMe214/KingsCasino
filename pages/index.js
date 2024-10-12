@@ -62,8 +62,8 @@ const Home = () => {
             <ins
               className="adsbygoogle"
               style={{ display: 'block' }}
-              data-ad-client="ca-pub-9968202342770074"  {/* Your AdSense publisher ID */}
-              data-ad-slot="3772273442"                {/* Replace with your Ad slot ID */}
+              data-ad-client="ca-pub-9968202342770074"  
+              data-ad-slot="3772273442"               
               data-ad-format="auto"
               data-full-width-responsive="true"
             ></ins>
@@ -139,7 +139,7 @@ const Home = () => {
               className="adsbygoogle"
               style={{ display: 'block' }}
               data-ad-client="ca-pub-9968202342770074"
-              data-ad-slot="7408367759"                {/* Second Ad Slot */}
+              data-ad-slot="7408367759"                
               data-ad-format="auto"
               data-full-width-responsive="true"
             ></ins>
@@ -189,7 +189,7 @@ const Home = () => {
               className="adsbygoogle"
               style={{ display: 'block' }}
               data-ad-client="ca-pub-9968202342770074"
-              data-ad-slot="1748846961"                {/* third Ad Slot */}
+              data-ad-slot="1748846961"               
               data-ad-format="auto"
               data-full-width-responsive="true"
             ></ins>
