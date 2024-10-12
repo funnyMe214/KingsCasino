@@ -58,6 +58,17 @@ const Home = () => {
 
        {/* AdSense Ad */}
   
+  <div className="col-md-12 mb-4 text-center">
+            <ins
+              className="adsbygoogle"
+              style={{ display: 'block' }}
+              data-ad-client="ca-pub-9968202342770074"  {/* Your AdSense publisher ID */}
+              data-ad-slot="3772273442"                {/* Replace with your Ad slot ID */}
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+          </div>
+  
                 <div className="col-md-4 mb-4">
                     <div className="card" id="p09x4">
                         <Link href="/game?id=p09x4">
@@ -123,6 +134,17 @@ const Home = () => {
                 </div>
 
    {/* AdSense Ad */}
+ <div className="col-md-12 mb-4 text-center">
+            <ins
+              className="adsbygoogle"
+              style={{ display: 'block' }}
+              data-ad-client="ca-pub-9968202342770074"
+              data-ad-slot="7408367759"                {/* Second Ad Slot */}
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+          </div>
+                
                 <div className="col-md-4 mb-4">
                     <div className="card" id="p09x8">
                         <Link href="/game?id=p09x8">
@@ -162,6 +184,18 @@ const Home = () => {
                     </div>
                 </div>
                    {/* AdSense Ad */}
+ <div className="col-md-12 mb-4 text-center">
+            <ins
+              className="adsbygoogle"
+              style={{ display: 'block' }}
+              data-ad-client="ca-pub-9968202342770074"
+              data-ad-slot="1748846961"                {/* third Ad Slot */}
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+          </div>
+
+
                 <div className="col-md-4 mb-4">
                     <div className="card" id="p09x11">
                         <Link href="/game?id=p09x11">
