@@ -65,8 +65,8 @@ const PrivacyPolicy = () => {
           If you have any questions about his Privacy Policy, please contact us:
         </p>
         <ul>
-          <li>Email: [Your Email Address]</li>
-          <li>Website: [Your Website URL]</li>
+          <li>Email: [makefunof214@gmail.com]</li>
+          <li>Website: [https://kingcasino.vercel.app/]</li>
         </ul>
       </div>
     </Layout>
