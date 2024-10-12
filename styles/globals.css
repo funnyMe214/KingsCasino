@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    width:100vh;
+    height:100vh;
 }
 .navbar{
 border-bottom: 2px solid #ffc72c;
@@ -11,7 +13,10 @@ h2{
 }
 
 #footer{
-    margin-top: 150px;
+   position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 .card:hover {
     transform: scale(1.05);
