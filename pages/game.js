@@ -26,7 +26,7 @@ const GamePage = () => {
         downloadLink: "https://dl.juwa777.com/",
         "offersImage": `${IMAGES_PATH}cashtag.jpg`,
         "cashoutRulesImage": `${IMAGES_PATH}cashout.jpg`,
-        "Apple_code":"Kings-casino"
+        "Apple_code":"https://dl.juwa777.com/"
       },
       {
         id: "p09x3",
@@ -36,7 +36,7 @@ const GamePage = () => {
         downloadLink: "http://start.orionstars.vip:8580/index.html",
         offersImage: "images/cashtag.jpg",
         cashoutRulesImage: "images/cashout.jpg",
-        "Apple_code":"Kings-casino"
+        "Apple_code":"http://start.orionstars.vip:8580/index.html"
 
       },
       {
@@ -47,7 +47,7 @@ const GamePage = () => {
         downloadLink: "http://download.gamevault999.com/",
         offersImage: "images/cashtag.jpg",
         cashoutRulesImage: "images/cashout.jpg",
-        "Apple_code":"Kings-casino"
+        "Apple_code":"http://download.gamevault999.com/"
 
       },
       {
@@ -58,7 +58,7 @@ const GamePage = () => {
         downloadLink: "https://milkywayapp.xyz/",
         offersImage: "images/cashtag.jpg",
         cashoutRulesImage: "images/cashout.jpg",
-        "Apple_code":"Kings-casino"
+        "Apple_code":"https://milkywayapp.xyz/"
 
       },
       {
@@ -69,7 +69,7 @@ const GamePage = () => {
         downloadLink: "http://www.gameroom777.com/",
         offersImage: "images/cashtag.jpg",
         cashoutRulesImage: "images/cashout.jpg",
-        "Apple_code":"Kings-casino"
+        "Apple_code":"http://www.gameroom777.com/"
 
       },
       {
@@ -80,7 +80,7 @@ const GamePage = () => {
         downloadLink: "http://m.lasvegassweeps.com/",
         offersImage: "images/cashtag.jpg",
         cashoutRulesImage: "images/cashout.jpg",
-        "Apple_code":"Kings-casino"
+        "Apple_code":"http://m.lasvegassweeps.com/"
 
       },
       {
@@ -91,7 +91,7 @@ const GamePage = () => {
         downloadLink: "https://www.ultrapanda.mobi/",
         offersImage: "images/cashtag.jpg",
         cashoutRulesImage: "images/cashout.jpg",
-        "Apple_code":"Kings-casino"
+        "Apple_code":"https://www.ultrapanda.mobi/"
 
       },
       {
@@ -102,7 +102,7 @@ const GamePage = () => {
         downloadLink: "https://pandamaster.vip:8888/",
         offersImage: "images/cashtag.jpg",
         cashoutRulesImage: "images/cashout.jpg",
-        "Apple_code":"Kings-casino"
+        "Apple_code":"https://pandamaster.vip:8888/"
 
       },
       {
@@ -113,7 +113,7 @@ const GamePage = () => {
         downloadLink: "https://firekirin.com/download-fire-kirin-app.html",
         offersImage: "images/cashtag.jpg",
         cashoutRulesImage: "images/cashout.jpg",
-        "Apple_code":"Kings-casino"
+        "Apple_code":"https://firekirin.com/download-fire-kirin-app.html"
 
       },
       {
@@ -124,7 +124,7 @@ const GamePage = () => {
         downloadLink: "https://www.vblink777.club/",
         offersImage: "images/cashtag.jpg",
         cashoutRulesImage: "images/cashout.jpg",
-        "Apple_code":"Kings-casino"
+        "Apple_code":"https://www.vblink777.club/"
 
       },
       {
@@ -135,7 +135,7 @@ const GamePage = () => {
         downloadLink: "https://download.casinoignitee.vip/",
         offersImage: "images/cashtag.jpg",
         cashoutRulesImage: "images/cashout.jpg",
-        "Apple_code":"Kings-casino"
+        "Apple_code":"https://download.casinoignitee.vip/"
 
       },
     ];
