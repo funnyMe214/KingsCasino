@@ -70,6 +70,21 @@ const Home = () => {
     </Link>
                     </div>
                 </div>
+
+    
+                <div className="col-md-4 mb-4">
+                    <div className="card" id="p09x11">
+                        <Link href="/game?id=p09x11">
+    <a>
+                        <Image src="https://img.resized.co/beat102103/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltZy5iZWF0MTAyMTAzLmNvbVxcXC9wcm9kXFxcL3VwbG9hZHNcXFwvQ2FzaC1NYWNoaW5lLUFydGljbGUtSGVhZGVyLUZiLVR3aXR0ZXItMTAyNHg1MzguanBnXCIsXCJ3aWR0aFwiOjEyMDAsXCJoZWlnaHRcIjo2MjcsXCJkZWZhdWx0XCI6XCJodHRwczpcXFwvXFxcL2V1LWNlbnRyYWwtMS5saW5vZGVvYmplY3RzLmNvbVxcXC9wcGx1cy5pbWcuYmVhdDEwMjEwMy5jb21cXFwvcHJvZFxcXC91cGxvYWRzXFxcL0JlYXQtTm8tSW1hZ2UucG5nXCIsXCJvcHRpb25zXCI6W119IiwiaGFzaCI6IjZkNTRmZjU0MGRkODIwY2RhZDhmNjdkNTkwZjVhZGQzNzFiYjhhMzgifQ==/win-big-money-on-the-beat-cash-machine.jpg" width={526} height={296} className="card-img-top" alt="Game Room" id="game-image"/>
+                        <div className="card-body">
+                            <h5 className="card-title" >Cash Machine</h5>
+                        </div>
+                        </a>
+    </Link>
+                    </div>
+                </div>
+    
                 <div className="col-md-4 mb-4">
                     <div className="card" id="p09x6">
                         <Link href="/game?id=p09x6">
