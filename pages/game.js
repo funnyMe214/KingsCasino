@@ -172,7 +172,11 @@ const GamePage = () => {
 
           </div>
           <div className="col-md-6">
-          <p id="game-description">{game.description}, "and copy player link if requred"</p>
+         <p id="game-description">
+    {{game.description}} and copy player link if required.
+</p>
+
+
 
           <CopyableText text={game.Apple_code} />
             <div className="d-grid gap-2">
