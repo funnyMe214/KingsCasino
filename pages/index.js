@@ -4,6 +4,15 @@ import Link from 'next/link';
 import Image from 'next/image'; // Import Image component
 
 const Home = () => {
+  useEffect(() => {
+    // Initialize AdSense ads after component mounts
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error("AdSense error", e);
+    }
+  }, []);
+  
   return (
     <Layout>
       <section className="games-section min-vh-100">
@@ -46,6 +55,9 @@ const Home = () => {
     </Link>
                     </div>
                 </div>
+
+       {/* AdSense Ad */}
+  
                 <div className="col-md-4 mb-4">
                     <div className="card" id="p09x4">
                         <Link href="/game?id=p09x4">
@@ -109,6 +121,8 @@ const Home = () => {
     </Link>
                     </div>
                 </div>
+
+   {/* AdSense Ad */}
                 <div className="col-md-4 mb-4">
                     <div className="card" id="p09x8">
                         <Link href="/game?id=p09x8">
@@ -147,6 +161,7 @@ const Home = () => {
     </Link>
                     </div>
                 </div>
+                   {/* AdSense Ad */}
                 <div className="col-md-4 mb-4">
                     <div className="card" id="p09x11">
                         <Link href="/game?id=p09x11">
