@@ -1,16 +1,25 @@
 // components/Footer.js
+import Link from 'next/link';
 
 const Footer = () => {
   return (
     <footer className="bg-dark text-white text-center py-3 mt-auto" id="footer">
       <p>
         Follow us on 
-        <a href="https://www.facebook.com/KiingTreasure" target="_blank" rel="noopener noreferrer" className="text-white"> Facebook</a>, 
-        <a href="#" target="_blank" rel="noopener noreferrer" className="text-white"> Twitter</a>, 
-        <a href="#" target="_blank" rel="noopener noreferrer" className="text-white"> Instagram</a>
+        <Link href="https://www.facebook.com/KiingTreasure" passHref>
+          <span className="text-white"> Facebook</span>
+        </Link>, 
+        <Link href="#" passHref>
+          <span className="text-white"> Twitter</span>
+        </Link>, 
+        <Link href="#" passHref>
+          <span className="text-white"> Instagram</span>
+        </Link>
       </p>
       <p>
-        <a href="/privacy-policy" className="text-white">Privacy Policy</a>
+        <Link href="/privacy-policy" passHref>
+          <span className="text-white">Privacy Policy</span>
+        </Link>
       </p>
     </footer>
   );
