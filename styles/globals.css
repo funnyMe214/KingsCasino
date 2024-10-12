@@ -78,6 +78,17 @@ footer a:hover {
     margin: 20px 20px 20px 0px;
 }
 
+#game-download{
+    margin-top: 20px;
+    margin-left:20px;
+}
+
+#game-description{
+    padding:5px;
+    text-align:center;
+     font-weight: bold;
+}
+
 
 /* CopyableText.js*/
 
