@@ -77,7 +77,7 @@ const GamePage = () => {
         title: "Cash Machine",
         description: "Create player account, Recharge , Reedem.Copy player link below.",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1A7KGDhhQzT47LKcXZUWvoQZUTam9-OXf5Q&s",
-        downloadLink: "http://agentserver.cashmachine777.com:8003/admin",
+        downloadLink: "https://agentserver.cashmachine777.com/admin/login",
         offersImage: "images/cashtag.jpg",
         cashoutRulesImage: "images/cashout.jpg",
         "Apple_code":" http://www.cashmachine777.com"
